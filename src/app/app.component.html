@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+  <h1>Catalogue</h1>
+  <div class="mat-spacer"></div>
+  <!-- Application Options -->
+  <a mat-button [routerLink]="'/catalogue'">Catalogue</a>
+  <a mat-button [routerLink]="'/add-product'">Create New Product</a>
+  <mat-divider [vertical]="true" [inset]="true"></mat-divider>
+
+</mat-toolbar>
+<router-outlet></router-outlet>
